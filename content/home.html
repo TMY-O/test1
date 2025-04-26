@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホーム</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Plof.html">プロフィール</a></li>
+                <li><a href="App.html">アプリ</a></li>
+                    <ul class="drop">
+                        <li><a href="../app/Todo.html">Todoリスト</a></li>
+                        <li><a href="../app/Memo.html">メモアプリ</a></li>
+                        <li><a href="../app/Counter.html">カウンターアプリ</a></li>
+                        <li><a href="../app/Timer.html">タイマーアプリ</a></li>
+                        <li><a href="../app/Word.html">ランダム名言</a></li>
+                    </ul>
+                </li>
+                <li><a href="Gallery.html">ギャラリー</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+     <h2>ここはポートフォリオサイトです</h2>
+
+       <div id="img">
+        <img id="slideImage" src="../img/1.jpg" alt="スライド画像" width="50%">
+       </div>
+
+       <script>
+        const images = [
+          "../img/1.jpg",
+          "../img/2.jpg",
+          "../img/3.jpg"
+        ];
+      
+        let current = 0;
+      
+        const imgElement = document.getElementById("slideImage");
+      
+        setInterval(() => {
+          current = (current + 1) % images.length;
+          imgElement.src = images[current];
+        }, 3000); 
+      </script>
+     </main>
+
+   <footer>
+    <p>© 2024 sometimes study</p>
+   </footer>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+#all{
+    padding:10px;
+    margin:10px;
+}
+
+#main1,#main2,#main3{
+    width: 60%;
+    display: block;
+    margin:10px 0;
+}
+
+#sub1,#sub2,#sub3{
+    margin-bottom: 30px;
+    gap: 10px;
+    display: flex;
+}
+
+.sub1,.sub2,.sub3{
+    width: 100px;
+    height: auto;
+}

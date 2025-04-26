@@ -1,0 +1,51 @@
+nav{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(8, 146, 100);
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+/* 個別のliに相対位置を設定 */
+nav li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover{
+    color:aquamarine;
+  }
+
+
+
+.drop{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(9, 116, 23);
+    list-style: none;
+    padding: 10px;
+    min-width: 150px;
+}
+
+nav li:hover .drop{
+    display: block;
+}
+
+
