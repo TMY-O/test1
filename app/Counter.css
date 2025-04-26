@@ -1,0 +1,35 @@
+#app{
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+#counterPart{
+    display: flex;
+}
+
+.material-icons{
+    padding: 3px
+    margin: 3px;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+    font-weight: 6;
+}
+
+
+#reset{
+    padding: 5px;
+    margin: 5px;
+    border:1px solid rgb(226, 214, 214);
+}
+
+.reset:hover { 
+    background-color:  rgb(118, 113, 113);
+    cursor:pointer;
+}

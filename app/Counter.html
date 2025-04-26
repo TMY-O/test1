@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カウンター</title>
+    <link rel="stylesheet" href="../content/header.css">
+    <link rel="stylesheet" href="../content/footer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Counter.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../content/Plof.html">プロフィール</a></li>
+                <li><a href="../content/App.html">アプリ</a>
+                    <ul class="drop">
+                        <li><a href="Todo.html">Todoリスト</a></li>
+                        <li><a href="Memo.html">メモアプリ</a></li>
+                        <li><a href="Counter.html">カウンターアプリ</a></li>
+                        <li><a href="Timer.html">タイマーアプリ</a></li>
+                        <li><a href="Word.html">ランダム名言</a></li>
+                    </ul>
+                </li>
+                <li><a href="../content/Gallery.html">ギャラリー</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="home.html">
+            <img src="../img/kaeru1.png" alt="もどるボタン" width="100">
+        </a>
+
+        <h2>カウンターアプリ</h2>
+        <div id="app">
+            <div id="counterPart">
+                <button class="material-icons" id="plus">add</button>
+                <p id="display"> 0</p>
+                <button class="material-icons" id="remove">remove</button>
+            </div>
+            <button id="reset">リセット</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2024 sometimes study</p>
+    </footer>
+
+    <script src="Counter.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+#App{
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 70%;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+#save{
+    padding: 5px;
+    margin: 5px;
+    border:1px solid rgb(226, 214, 214);
+}
+
+#save:hover { 
+    background-color:  rgb(118, 113, 113);
+    cursor:pointer;
+}
+
+#memoStc{
+    padding: 5px;
+    margin: 5px 0
+    color: black;
+    background-color:rgb(143, 219, 194) ;
+    border: 2px solid rgb(3, 126, 85) ;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+#memoStc li {
+    display: flex;
+    align-items: center; /* 縦方向の中央揃え */
+    margin-bottom: 8px;
+  }
+  
+  #memoStc textarea {
+    flex: 1;
+    height: 40px;
+    resize: none;
+    margin-right: 8px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  #memoStc button {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  #edit-btn{
+    background-color:  rgb(118, 113, 113);
+    cursor:pointer;
+  }

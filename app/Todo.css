@@ -1,0 +1,39 @@
+#app{
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+#inpStc{
+    padding: 5px;
+    margin: 5px 0;
+    color: black;
+    background-color:rgb(143, 219, 194) ;
+    border: 2px solid rgb(3, 126, 85) ;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+#inpStc li {
+    display: flex;
+    align-items: center; /* 縦方向の中央揃え */
+    margin-bottom: 8px;
+  }
+  
+  #inpStc textarea {
+    flex: 1;
+    height: 40px;
+    resize: none;
+    margin-right: 8px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  #deleteBtn {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}

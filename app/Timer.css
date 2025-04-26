@@ -1,0 +1,37 @@
+#add1,#add2{
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    width: 200px;
+}
+
+#displayAdd,#displayRemove{
+    padding: 5px;
+    margin: 5px 0;
+    color: black;
+    background-color:rgb(143, 219, 194) ;
+    border: 2px solid rgb(3, 126, 85) ;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+#upButton,#upButton{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    cursor:pointer;
+}
+
+#timerPart{
+    padding: 5px;
+    margin: 5px;
+    display: flex
+    consore:pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+
+}
+
+
+
